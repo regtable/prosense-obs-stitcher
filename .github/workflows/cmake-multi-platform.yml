@@ -30,7 +30,7 @@ jobs:
         run: cmake --build build --config Release
 
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v4+
+        uses: actions/upload-artifact@v4
         with:
           name: prosense-obs-stitcher-windows
           path: build/Release/prosense-obs-stitcher.exe
